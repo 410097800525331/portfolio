@@ -7,8 +7,7 @@ $(document).ready(function () {
         <img src="${item.img}" alt="Work ${item.num}">
         <div class="portfolio_overlay">
           <h3>${item.title}</h3>
-          <p>${item.text}</p>
-          <h4>+</h4>
+          <h4>More View +</h4>
         </div>
       </div>
     `;

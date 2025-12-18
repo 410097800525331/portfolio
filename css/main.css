@@ -22,7 +22,7 @@ header.scrolled {
 }
 nav ul {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 nav li a {
   display: block;
@@ -215,10 +215,11 @@ nav li a:hover {
 #web_portfolio .inner h2,
 #blender_portfolio h2,
 #design_portfolio h2 {
-  font-size: 2rem;
-  padding: 10px;
   margin-bottom: 8px;
-  border: 1px solid #ccc;
+  color: #7a91b4;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
 }
 .web_portfolio_grid,
 .blender_grid,
@@ -374,7 +375,6 @@ nav li a:hover {
 .blender_info {
   position: absolute;
   bottom: 0; left: 0; right: 0;
-  color: #fff;
   background: rgba(0, 0, 0, 0.6);
   padding: 10px;
   transform: translateY(100%);
@@ -382,6 +382,10 @@ nav li a:hover {
 }
 .blender_card:hover .blender_info {
   transform: translateY(0);
+}
+.blender_info h3,
+.blender_info p {
+  color: #fff;
 }
 /* design_portfolio */
 .dpf_portfolio_grid {
@@ -453,6 +457,7 @@ nav li a:hover {
   position: absolute;
   width: 100%; height: 100%;
   background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 .info_modal_content {
   position: absolute;
@@ -462,7 +467,7 @@ nav li a:hover {
 .info_modal_close {
   position: absolute;
   top: 0px; right: 8px;
-  color: #fff;
+  color: #555;
   font-size: 3rem;
   cursor: pointer;
 }
