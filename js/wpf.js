@@ -5,7 +5,7 @@ $(document).ready(function () {
     const rollText = `${item.roll} · `.repeat(10);
 
     const wpf = `
-      <a class="wpf_portfolio_card" href="${item.link}">
+      <a class="wpf_portfolio_card" href="${item.link}" target="_black">
         <div class="card_inner">
           <div class="card_front">
             <h3>${item.title}</h3>

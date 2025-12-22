@@ -6,10 +6,10 @@ const wpfs = [
     roll: 'ecoteav',
   },
   {
-    title: '애플뮤직',
+    title: '세이지뮤직',
     img: 'https://d2v80xjmx68n4w.cloudfront.net/members/portfolios/phnAm1742534699.png?w=500',
     link: 'https://sagemusic.netlify.app/',
-    roll: 'AppleMusic',
+    roll: 'sageMusic',
   },
   {
     title: '메가박스',
@@ -18,7 +18,7 @@ const wpfs = [
     roll: 'megabox',
   },
   {
-    title: '제주항공',
+    title: '제주그룹',
     img: 'https://d2v80xjmx68n4w.cloudfront.net/members/portfolios/phnAm1742534699.png?w=500',
     link: 'https://jejuteam.netlify.app/',
     roll: 'JejuAir',
