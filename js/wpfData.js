@@ -12,10 +12,10 @@ const wpfs = [
     roll: 'sageMusic',
   },
   {
-    title: '메가박스',
+    title: '리그오브레전드',
     img: 'https://d2v80xjmx68n4w.cloudfront.net/members/portfolios/phnAm1742534699.png?w=500',
     link: '#',
-    roll: 'megabox',
+    roll: 'leagueoflegends',
   },
   {
     title: '제주그룹',
