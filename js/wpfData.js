@@ -6,10 +6,10 @@ const wpfs = [
     roll: 'ecoteav',
   },
   {
-    title: '세이지뮤직',
+    title: '레운랜드',
     img: 'https://d2v80xjmx68n4w.cloudfront.net/members/portfolios/phnAm1742534699.png?w=500',
-    link: 'https://sagemusic.netlify.app/',
-    roll: 'sageMusic',
+    link: 'https://leunland.netlify.app/',
+    roll: 'LeunLand',
   },
   {
     title: '리그오브레전드',
